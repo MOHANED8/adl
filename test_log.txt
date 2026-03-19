@@ -1,0 +1,33 @@
+--- Testing Induction (Smoke) ---
+Running: python run_experiments.py --smoke
+SUCCESS: Induction (Smoke)
+--- Testing Analysis (CKA) ---
+Running: python -m analysis.run_analysis --run_id smoke_run_0
+SUCCESS: Analysis (CKA)
+--- Testing Causal (Granger) ---
+Running: python -m causal.granger --run_id smoke_run_0
+Error running python -m causal.granger --run_id smoke_run_0:
+C:\Users\lenovo\AppData\Roaming\Python\Python313\site-packages\statsmodels\tsa\stattools.py:1556: FutureWarning: verbose is deprecated since functions should not print results
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\lenovo\Desktop\New folder\causal\granger.py", line 37, in <module>
+    res = compute_granger_for_run(args.run_id)
+  File "C:\Users\lenovo\Desktop\New folder\causal\granger.py", line 25, in compute_granger_for_run
+    test_result = grangercausalitytests(data, maxlag=max_lag, verbose=False)
+  File "C:\Users\lenovo\AppData\Roaming\Python\Python313\site-packages\statsmodels\tsa\stattools.py", line 1578, in grangercausalitytests
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Insufficient observations. Maximum allowable lag is 1
+
+FAILED: Causal (Granger)
+--- Testing Meta-Training ---
+Running: python -m meta.train_meta
+SUCCESS: Meta-Training
+--- Testing Diagnostic Deploy ---
+Running: python -m diagnostic.run_diagnostic --action early_stop
+SUCCESS: Diagnostic Deploy
+
+SOME PROJECT TESTS FAILED.

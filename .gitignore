@@ -1,0 +1,26 @@
+# Environment
+__pycache__/
+*.pyc
+.env
+.venv
+env/
+venv/
+
+# Datasets
+data_root/
+*.tar.gz
+*.zip
+
+# Outputs & Logs
+results/
+meta_models/
+*.npz
+*.pt
+*.pth
+*.json
+*.png
+test_log.txt
+
+# Editor
+.vscode/
+.idea/

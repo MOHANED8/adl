@@ -1,0 +1,2 @@
+epoch,activation_mean,activation_std,sparsity,gradient_norm,weight_norm,feature_cov_drift,repr_similarity_shift,train_loss,train_acc,val_loss,val_acc,gen_gap_loss,future_val_loss,future_val_loss_increase,future_gen_gap,imminent_overfit
+0,-0.0089076764408962,0.8270965574604527,2.1515822992092224e-06,5.362105437531704,15.901089665366381,0.0,0.0,2.6060582995414734,0.078125,2.1760793328285217,0.125,-0.42997896671295166,2.5706188678741455,0.3945395350456238,-0.42997896671295166,1

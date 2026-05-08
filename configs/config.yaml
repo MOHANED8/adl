@@ -1,0 +1,11 @@
+defaults:
+  - dataset: cifar10
+  - model: resnet18
+  - training: base
+  - tracking: base
+  - diagnostics: base
+  - _self_
+
+exp:
+  name: cifar10_resnet18
+  out_dir: runs/${exp.name}

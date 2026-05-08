@@ -1,0 +1,14 @@
+name: cnn
+pretrained: false
+
+hooks:
+  module_globs:
+    - "features.*"
+    - "classifier"
+  max_per_module: 1
+  capture_inputs: false
+  capture_outputs: true
+  capture_output_grads: true
+  capture_attention: true
+  detach: true
+  cpu: true

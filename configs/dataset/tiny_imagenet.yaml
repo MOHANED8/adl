@@ -1,0 +1,17 @@
+name: tiny_imagenet
+num_classes: 200
+root: data
+image_size: 224
+aug: imagenet_basic
+cache_dir: data/cache/tiny_imagenet_224_det
+
+train:
+  split: train
+  batch_size: 64
+  num_workers: 0
+
+val:
+  split: val
+  batch_size: 128
+  num_workers: 0
+

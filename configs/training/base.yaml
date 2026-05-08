@@ -1,0 +1,17 @@
+epochs: 20
+optim:
+  name: adamw
+  lr: 3e-4
+  weight_decay: 1e-4
+  momentum: 0.9
+log_every_steps: 20
+monitor_every_steps: 200
+runtime:
+  device: cuda
+  multi_gpu: false
+  distributed: false
+  backend: nccl
+  amp: false
+  amp_dtype: float16
+  grad_clip_norm: null
+  seed: 42

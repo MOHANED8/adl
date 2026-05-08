@@ -1,0 +1,18 @@
+name: cifar10
+num_classes: 10
+root: data
+image_size: 224
+aug: imagenet_basic
+cache_dir: data/cache/cifar10_224_det
+label_noise_p: 0.0
+label_noise_seed: 0
+
+train:
+  split: train
+  batch_size: 64
+  num_workers: 0
+
+val:
+  split: test
+  batch_size: 128
+  num_workers: 0

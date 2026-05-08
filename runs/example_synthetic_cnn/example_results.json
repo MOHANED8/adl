@@ -1,0 +1,51 @@
+{
+  "run_dir": "C:\\Users\\lenovo\\Desktop\\JupyterProject\\runs\\example_synthetic_cnn",
+  "auc_internal_signals": 0.0,
+  "false_positive_rate@0.5": 0.0,
+  "lead_time": {
+    "lead_time_mean": NaN
+  },
+  "risk_valacc_corr": NaN,
+  "granger_top": [
+    {
+      "feature": "act_anisotropy_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_cov_trace_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_dead_ratio_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_drift_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_entropy_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_instability_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_kurtosis_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_mean_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_skew_mean",
+      "p": 1.0
+    },
+    {
+      "feature": "act_sparsity_mean",
+      "p": 1.0
+    }
+  ]
+}

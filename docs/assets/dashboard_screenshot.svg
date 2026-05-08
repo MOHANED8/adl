@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f4f6f8"/>
+  <rect x="0" y="0" width="260" height="720" fill="#1f2a37"/>
+  <text x="28" y="48" fill="#f9fafb" font-family="Arial, sans-serif" font-size="28" font-weight="700">DTD Dashboard</text>
+  <rect x="24" y="92" width="212" height="42" rx="6" fill="#ffffff"/>
+  <text x="36" y="118" fill="#334155" font-family="Arial, sans-serif" font-size="15">runs/cifar10_resnet18/events.jsonl</text>
+  <text x="24" y="174" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="14">View kind</text>
+  <rect x="24" y="188" width="212" height="42" rx="6" fill="#ffffff"/>
+  <text x="36" y="214" fill="#334155" font-family="Arial, sans-serif" font-size="15">gradient_stats</text>
+  <text x="24" y="278" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="14">Kinds</text>
+  <text x="24" y="306" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13">train_step</text>
+  <text x="24" y="330" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13">val_epoch</text>
+  <text x="24" y="354" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13">activation_stats</text>
+  <text x="24" y="378" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13">gradient_stats</text>
+  <text x="24" y="402" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13">repr_epoch</text>
+  <rect x="292" y="28" width="956" height="72" rx="12" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="324" y="72" fill="#0f172a" font-family="Arial, sans-serif" font-size="30" font-weight="700">Deep Training Dynamics Dashboard</text>
+  <rect x="292" y="122" width="462" height="238" rx="12" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="316" y="158" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Training Curves</text>
+  <polyline points="324,304 374,286 424,258 474,242 524,210 574,194 624,178 674,152 724,146"
+            fill="none" stroke="#0ea5e9" stroke-width="4"/>
+  <polyline points="324,320 374,312 424,298 474,286 524,270 574,248 624,232 674,218 724,204"
+            fill="none" stroke="#22c55e" stroke-width="4"/>
+  <text x="324" y="338" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Blue: training loss</text>
+  <text x="480" y="338" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Green: validation accuracy</text>
+  <rect x="786" y="122" width="462" height="238" rx="12" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="810" y="158" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Selected Records</text>
+  <rect x="810" y="180" width="414" height="148" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="828" y="208" fill="#334155" font-family="Courier New, monospace" font-size="14">kind: gradient_stats</text>
+  <text x="828" y="232" fill="#334155" font-family="Courier New, monospace" font-size="14">global_step: 120</text>
+  <text x="828" y="256" fill="#334155" font-family="Courier New, monospace" font-size="14">grad_norm: 4.82</text>
+  <text x="828" y="280" fill="#334155" font-family="Courier New, monospace" font-size="14">sharpness_proxy: 0.013</text>
+  <text x="828" y="304" fill="#334155" font-family="Courier New, monospace" font-size="14">hessian_trace_proxy: 1.42</text>
+  <rect x="292" y="388" width="956" height="292" rx="12" fill="#ffffff" stroke="#dbe2ea"/>
+  <text x="316" y="426" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Diagnostics</text>
+  <rect x="316" y="450" width="220" height="84" rx="10" fill="#eff6ff"/>
+  <text x="336" y="484" fill="#2563eb" font-family="Arial, sans-serif" font-size="16">Latest grad_norm</text>
+  <text x="336" y="518" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="700">4.82</text>
+  <rect x="562" y="450" width="654" height="194" rx="10" fill="#f8fafc" stroke="#e2e8f0"/>
+  <polyline points="588,602 648,590 708,560 768,536 828,514 888,492 948,482 1008,474 1068,468 1128,462 1188,456"
+            fill="none" stroke="#ef4444" stroke-width="4"/>
+  <polyline points="588,616 648,608 708,598 768,588 828,566 888,552 948,534 1008,526 1068,518 1128,506 1188,498"
+            fill="none" stroke="#8b5cf6" stroke-width="4"/>
+  <text x="588" y="634" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Red: grad_norm</text>
+  <text x="720" y="634" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Purple: hessian_trace_proxy</text>
+</svg>

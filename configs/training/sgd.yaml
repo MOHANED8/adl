@@ -1,0 +1,9 @@
+optim:
+  name: sgd
+  lr: 0.1
+  weight_decay: 0.0005
+  momentum: 0.9
+epochs: 1
+log_every_steps: 20
+monitor_every_steps: 200
+

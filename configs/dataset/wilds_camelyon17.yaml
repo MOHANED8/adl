@@ -1,0 +1,17 @@
+name: "wilds:camelyon17"
+num_classes: 2
+root: data
+image_size: 224
+aug: imagenet_basic
+cache_dir: data/cache/wilds_camelyon17_224_det
+
+train:
+  split: train
+  batch_size: 32
+  num_workers: 0
+
+val:
+  split: val
+  batch_size: 64
+  num_workers: 0
+

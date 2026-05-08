@@ -1,0 +1,13 @@
+.venv/
+.idea/
+.pytest_cache/
+__pycache__/
+*.pyc
+.coverage
+
+data/
+outputs/
+
+runs/*
+!runs/example_synthetic_cnn/
+!runs/example_synthetic_cnn/**

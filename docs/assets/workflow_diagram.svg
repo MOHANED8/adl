@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <rect width="1280" height="760" fill="#ffffff"/>
+  <text x="60" y="70" fill="#111827" font-family="Arial, sans-serif" font-size="34" font-weight="700">DTD Workflow Overview</text>
+  <rect x="70" y="130" width="180" height="90" rx="14" fill="#dbeafe" stroke="#60a5fa"/>
+  <text x="110" y="185" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="24" font-weight="700">Configure</text>
+  <rect x="300" y="130" width="180" height="90" rx="14" fill="#dcfce7" stroke="#22c55e"/>
+  <text x="350" y="185" fill="#15803d" font-family="Arial, sans-serif" font-size="24" font-weight="700">Train</text>
+  <rect x="530" y="130" width="180" height="90" rx="14" fill="#fef3c7" stroke="#f59e0b"/>
+  <text x="563" y="185" fill="#b45309" font-family="Arial, sans-serif" font-size="24" font-weight="700">Monitor</text>
+  <rect x="760" y="130" width="180" height="90" rx="14" fill="#fee2e2" stroke="#ef4444"/>
+  <text x="796" y="185" fill="#b91c1c" font-family="Arial, sans-serif" font-size="24" font-weight="700">Evaluate</text>
+  <rect x="990" y="130" width="180" height="90" rx="14" fill="#ede9fe" stroke="#8b5cf6"/>
+  <text x="1030" y="185" fill="#6d28d9" font-family="Arial, sans-serif" font-size="24" font-weight="700">Review</text>
+  <path d="M250 175 L300 175" stroke="#64748b" stroke-width="6" fill="none"/>
+  <path d="M480 175 L530 175" stroke="#64748b" stroke-width="6" fill="none"/>
+  <path d="M710 175 L760 175" stroke="#64748b" stroke-width="6" fill="none"/>
+  <path d="M940 175 L990 175" stroke="#64748b" stroke-width="6" fill="none"/>
+  <polygon points="293,165 308,175 293,185" fill="#64748b"/>
+  <polygon points="523,165 538,175 523,185" fill="#64748b"/>
+  <polygon points="753,165 768,175 753,185" fill="#64748b"/>
+  <polygon points="983,165 998,175 983,185" fill="#64748b"/>
+  <rect x="90" y="290" width="290" height="150" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="114" y="330" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">1. Hydra Setup</text>
+  <text x="114" y="366" fill="#334155" font-family="Arial, sans-serif" font-size="18">Select dataset, model, training,</text>
+  <text x="114" y="392" fill="#334155" font-family="Arial, sans-serif" font-size="18">diagnostics, and tracking config.</text>
+  <rect x="410" y="290" width="290" height="150" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="434" y="330" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">2. Instrumented Fit</text>
+  <text x="434" y="366" fill="#334155" font-family="Arial, sans-serif" font-size="18">Trainer logs loss, validation, and</text>
+  <text x="434" y="392" fill="#334155" font-family="Arial, sans-serif" font-size="18">internal tensors through hooks.</text>
+  <rect x="730" y="290" width="290" height="150" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="754" y="330" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">3. Diagnostic Export</text>
+  <text x="754" y="366" fill="#334155" font-family="Arial, sans-serif" font-size="18">JSONL and TensorBoard artifacts</text>
+  <text x="754" y="392" fill="#334155" font-family="Arial, sans-serif" font-size="18">feed dashboard and evaluator.</text>
+  <rect x="250" y="500" width="320" height="170" rx="14" fill="#eef2ff" stroke="#a5b4fc"/>
+  <text x="274" y="542" fill="#312e81" font-family="Arial, sans-serif" font-size="24" font-weight="700">Operator Loop</text>
+  <text x="274" y="580" fill="#4338ca" font-family="Arial, sans-serif" font-size="18">Inspect curves</text>
+  <text x="274" y="608" fill="#4338ca" font-family="Arial, sans-serif" font-size="18">Tune thresholds</text>
+  <text x="274" y="636" fill="#4338ca" font-family="Arial, sans-serif" font-size="18">Repeat with controlled changes</text>
+  <rect x="640" y="500" width="390" height="170" rx="14" fill="#ecfeff" stroke="#22d3ee"/>
+  <text x="664" y="542" fill="#155e75" font-family="Arial, sans-serif" font-size="24" font-weight="700">Research Loop</text>
+  <text x="664" y="580" fill="#0f766e" font-family="Arial, sans-serif" font-size="18">Aggregate multi-run logs</text>
+  <text x="664" y="608" fill="#0f766e" font-family="Arial, sans-serif" font-size="18">Score predictive internal signals</text>
+  <text x="664" y="636" fill="#0f766e" font-family="Arial, sans-serif" font-size="18">Validate causal hypotheses</text>
+</svg>

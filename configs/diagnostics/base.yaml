@@ -1,0 +1,32 @@
+activation:
+  enabled: true
+  feature_mode: gap
+gradient:
+  enabled: true
+representation:
+  enabled: true
+  module_name: fc
+uncertainty:
+  enabled: true
+  sample_batches: 2
+  bins: 10
+  fit_temperature_scaling: true
+  temperature_steps: 25
+  temperature_lr: 0.05
+specialization:
+  enabled: true
+  module_name: fc
+  feature_mode: flatten
+  topk_fraction: 0.1
+collapse:
+  enabled: true
+  module_name: fc
+  feature_mode: flatten
+  collapse_rank_threshold: 0.2
+self_supervised:
+  enabled: false
+  module_name: fc
+  noise_std: 0.05
+early_warning:
+  enabled: true
+  mode: console

@@ -1,0 +1,10 @@
+tensorboard: true
+wandb:
+  enabled: false
+  project: dtd
+  entity: null
+  tags: []
+mlflow:
+  enabled: false
+  experiment: dtd
+  tracking_uri: null
